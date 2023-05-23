@@ -6,7 +6,7 @@ include *.toml
 include tox.ini
 recursive-include tests *.py
 # make type checkers aware of type annotations
-include src/flask_uploads/py.typed
+include src/flask_reuploads/py.typed
 
 # include all docs
 recursive-include docs *.in

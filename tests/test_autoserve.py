@@ -2,10 +2,10 @@ import os
 from pathlib import Path
 
 from flask import Flask
-from flask_uploads import ALL
-from flask_uploads import IMAGES
-from flask_uploads import UploadSet
-from flask_uploads import configure_uploads
+from flask_reuploads import ALL
+from flask_reuploads import IMAGES
+from flask_reuploads import UploadSet
+from flask_reuploads import configure_uploads
 
 SIMPLE_PICTURE = (
     b"\x89PNG\r\n\x1a\n\x00\x00\x00\rIHDR\x00\x00\x00\x05\x00\x00\x00\x05"

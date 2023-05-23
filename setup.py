@@ -24,11 +24,11 @@ def read(*parts):
 LONG = read("README.rst") + "\n\n" + read("CHANGES.rst")
 
 setup(
-    name="Flask-Reuploaded",
+    name="Flask-Reuploads",
     version="1.3.1.dev0",
-    url="https://github.com/jugmac00/flask-reuploaded",
+    url="https://github.com/picklu/flask-reuploads",
     project_urls={
-        "Source": "https://github.com/jugmac00/flask-reuploaded",
+        "Source": "https://github.com/picklu/flask-reuploads",
         "Issue Tracker": "https://github.com/jugmac00/flask-reuploaded/issues",
         "Documentation": "https://flask-reuploaded.readthedocs.io/en/latest/",
     },

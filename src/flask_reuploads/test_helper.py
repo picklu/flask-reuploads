@@ -1,4 +1,4 @@
-"""TestingFileStorage is intended to be used by users of `Flask-Reuploaded`
+"""TestingFileStorage is intended to be used by users of `Flask-Reuploads`
 
 This means:
     - the name cannot be changed easily
@@ -30,6 +30,7 @@ class TestingFileStorage(FileStorage):
     :param headers: Multipart headers as a `werkzeug.Headers`. The default is
                     `None`.
     """
+
     def __init__(
         self,
         stream: Optional[BinaryIO] = None,

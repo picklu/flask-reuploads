@@ -14,17 +14,18 @@ from unittest.mock import patch
 import pytest
 from flask import Flask
 from flask import url_for
-from flask_uploads import ALL
-from flask_uploads import AllExcept
-from flask_uploads import TestingFileStorage
-from flask_uploads import UploadConfiguration
-from flask_uploads import UploadNotAllowed
-from flask_uploads import UploadSet
-from flask_uploads import addslash
-from flask_uploads import config_for_set
-from flask_uploads import configure_uploads
-from flask_uploads import extension
-from flask_uploads import lowercase_ext
+
+from flask_reuploads import ALL
+from flask_reuploads import AllExcept
+from flask_reuploads import TestingFileStorage
+from flask_reuploads import UploadConfiguration
+from flask_reuploads import UploadNotAllowed
+from flask_reuploads import UploadSet
+from flask_reuploads import addslash
+from flask_reuploads import config_for_set
+from flask_reuploads import configure_uploads
+from flask_reuploads import extension
+from flask_reuploads import lowercase_ext
 
 
 class TestMiscellaneous:

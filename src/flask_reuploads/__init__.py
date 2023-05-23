@@ -1,4 +1,4 @@
-"""public API of Flask-Reuploaded
+"""public API of Flask-Reuploads
 
 isort:skip_file
 """
@@ -23,11 +23,11 @@ from .extensions import extension
 from .extensions import lowercase_ext
 
 
-from .flask_uploads import UploadConfiguration
-from .flask_uploads import UploadSet
-from .flask_uploads import addslash
-from .flask_uploads import configure_uploads
-from .flask_uploads import config_for_set
+from .flask_reuploads import UploadConfiguration
+from .flask_reuploads import UploadSet
+from .flask_reuploads import addslash
+from .flask_reuploads import configure_uploads
+from .flask_reuploads import config_for_set
 from .test_helper import TestingFileStorage
 
 __all__ = [

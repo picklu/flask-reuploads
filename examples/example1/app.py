@@ -1,5 +1,5 @@
 """
-Example application for simple usage of the `Flask-Reuploaded` extension.
+Example application for simple usage of the `Flask-Reuploads` extension.
 In this example, You will be able to upload and serve files.
 """
 import os
@@ -12,9 +12,9 @@ from flask import render_template
 from flask import request
 from flask import send_from_directory
 from flask import url_for
-from flask_uploads import IMAGES
-from flask_uploads import UploadSet
-from flask_uploads import configure_uploads
+from flask_reuploads import IMAGES
+from flask_reuploads import UploadSet
+from flask_reuploads import configure_uploads
 
 # define app
 app = Flask(__name__)

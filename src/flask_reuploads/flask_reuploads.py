@@ -1,5 +1,5 @@
 """
-Flask-Reuploaded
+Flask-Reuploads
 ================
 This module provides upload support for Flask.
 
@@ -8,6 +8,7 @@ and upload your files to it.
 
 :copyright: 2010 Matthew "LeafStorm" Frazier
 :copyright: 2019-2020 Jürgen Gmach <juergen.gmach@googlemail.com>
+:copyright: 2023 Subrata Sarker <picklumithu@yahoo.com>
 :license:   MIT/X11, see LICENSE for details
 """
 import os
@@ -143,6 +144,7 @@ class UploadConfiguration:
     :param deny: A list of extensions to deny, even if they are in the
                  `UploadSet` extensions list.
     """
+
     def __init__(
             self,
             destination: str,
@@ -189,6 +191,7 @@ class UploadSet:
                          with the app, it should return the default upload
                          destination path for that app.
     """
+
     def __init__(
         self,
         name: str = 'files',
