@@ -16,6 +16,11 @@ def read(*parts):
 
     Proudly copy-pasted from Hynek's attrs project
     (minus the typo).
+
+    Simply renamed Jürgen Gmach's Flask-Reuploaded
+    project.
+
+    CopyCat: Subrata Sarker <picklumithu@yahoo.com>
     """
     with codecs.open(os.path.join(HERE, *parts), "rb", "utf-8") as f:
         return f.read()
@@ -25,7 +30,7 @@ LONG = read("README.rst") + "\n\n" + read("CHANGES.rst")
 
 setup(
     name="Flask-Reuploads",
-    version="1.3.1.dev0",
+    version="1.0.0.dev0",
     url="https://github.com/picklu/flask-reuploads",
     project_urls={
         "Source": "https://github.com/picklu/flask-reuploads",

@@ -17,10 +17,10 @@
     :target: https://github.com/jugmac00/flask-reuploaded/blob/master/LICENSE
 
 
-Flask-Reuploaded
+Flask-Reuploads
 ================
 
-Flask-Reuploaded provides file uploads for Flask.
+Flask-Reuploads is a copy of Flask-Reuploaded that provides file uploads for Flask.
 
 
 Notes on this package
@@ -83,11 +83,17 @@ So, if you use `pip` to install your packages, instead of ...
 
 .. code-block:: bash
 
-    $ pip install `Flask-Reuploaded`
+    $ pip install `Flask-Reuploads`
 
-`Flask-Reuploaded` is a drop-in replacement.
+`Flask-Reuploads` is not a drop-in replacement.
 
-This means you do not have to change a single line of code.
+Instead of importing from "flask_reuploaded" you
+need to import from "flask_reuploads".
+
+That means, I have changed the package name from 
+flask_reuploaded to flask_reuploads to avoid any 
+conflicts when using pipreqs.
+
 
 
 Installation
@@ -95,7 +101,7 @@ Installation
 
 .. code-block:: bash
 
-    $ pip install Flask-Reuploaded
+    $ pip install Flask-Reuploads
 
 
 Getting started
@@ -105,7 +111,7 @@ create an UploadSet
 
 .. code-block:: python
 
-    from flask_uploads import IMAGES
+    from flask_reuploads import IMAGES
 
     photos = UploadSet("photos", IMAGES)
 
@@ -160,7 +166,7 @@ Application code, e.g. main.py
     from flask import Flask, flash, render_template, request
     # please note the import from `flask_uploads` - not `flask_reuploaded`!!
     # this is done on purpose to stay compatible with `Flask-Uploads`
-    from flask_uploads import IMAGES, UploadSet, configure_uploads
+    from flask_reuploads import IMAGES, UploadSet, configure_uploads
 
     app = Flask(__name__)
     photos = UploadSet("photos", IMAGES)
