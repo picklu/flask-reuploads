@@ -13,15 +13,15 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Flask-Reuploaded'
-copyright = 'Matthew "LeafStorm" Frazier, Jürgen Gmach'
+project = 'Flask-Reuploads'
+copyright = 'Matthew "LeafStorm" Frazier, Jürgen Gmach, Subrata Sarker'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '1.3.1'
+version = '1.0.0'
 # The full version, including alpha/beta/rc tags.
 release = version
 

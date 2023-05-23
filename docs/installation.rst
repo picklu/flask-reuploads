@@ -3,7 +3,7 @@ Installation
 
 .. code-block:: bash
 
-    $ pip install Flask-Reuploaded
+    $ pip install Flask-Reuploads
 
 
 .. _migration-guide:

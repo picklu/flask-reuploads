@@ -8,8 +8,8 @@ The following code snippets explain how to quickly integrate the extension in yo
     .. code-block:: python
 
         # IMAGES is a collection of the most common image suffixes.
-        from flask_uploads import IMAGES
-        from flask_uploads import UploadSet
+        from flask_reuploads import IMAGES
+        from flask_reuploads import UploadSet
         # Create your first `UploadSet`.
         photos = UploadSet("photos", IMAGES)
 

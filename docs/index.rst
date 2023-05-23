@@ -1,8 +1,8 @@
 ================
-Flask-Reuploaded
+Flask-Reuploads
 ================
 
-.. currentmodule:: flask_uploads
+.. currentmodule:: flask_reuploads
 
 Flask-Reuploaded provides file uploads for Flask.
 

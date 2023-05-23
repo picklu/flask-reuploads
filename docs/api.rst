@@ -2,7 +2,7 @@ API Documentation
 =================
 This documentation is generated directly from the source code.
 
-.. currentmodule:: flask_uploads
+.. currentmodule:: flask_reuploads
 
 
 Upload Sets
