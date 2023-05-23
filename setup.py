@@ -30,7 +30,7 @@ LONG = read("README.rst") + "\n\n" + read("CHANGES.rst")
 
 setup(
     name="Flask-Reuploads",
-    version="1.0.0.dev0",
+    version="1.0.1.dev0",
     url="https://github.com/picklu/flask-reuploads",
     project_urls={
         "Source": "https://github.com/picklu/flask-reuploads",
